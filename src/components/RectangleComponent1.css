@@ -1,0 +1,15 @@
+.group-child1 {
+  position: absolute;
+  top: 0;
+  left: 556px;
+  background: linear-gradient(
+    180deg,
+    #000,
+    #200d42 34.22%,
+    #4f21a1 64.9%,
+    #a46edb 81.78%
+  );
+  width: 1200px;
+  height: 730px;
+  align-items: center;
+}

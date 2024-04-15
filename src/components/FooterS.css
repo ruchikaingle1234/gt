@@ -1,0 +1,121 @@
+.your-company-inc2 {
+  position: relative;
+}
+.vector-icon11 {
+  position: absolute;
+  height: 58.33%;
+  width: 66.67%;
+  top: 20.83%;
+  right: 16.67%;
+  bottom: 20.83%;
+  left: 16.67%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.socials6 {
+  text-decoration: none;
+  width: 24px;
+  position: relative;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.vector-icon12,
+.vector-icon13,
+.vector-icon15,
+.vector-icon16 {
+  position: absolute;
+  height: 81.25%;
+  width: 81.25%;
+  top: 9.58%;
+  right: 9.17%;
+  bottom: 9.17%;
+  left: 9.58%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vector-icon13,
+.vector-icon15,
+.vector-icon16 {
+  height: 66.67%;
+  width: 66.67%;
+  top: 16.67%;
+  right: 16.67%;
+  bottom: 16.67%;
+  left: 16.67%;
+}
+.vector-icon15,
+.vector-icon16 {
+  height: 70.83%;
+  width: 62.5%;
+  top: 14.58%;
+  right: 18.75%;
+  bottom: 14.58%;
+  left: 18.75%;
+}
+.vector-icon16 {
+  height: 68.75%;
+  width: 87.5%;
+  top: 15.42%;
+  right: 6.25%;
+  bottom: 15.83%;
+  left: 6.25%;
+}
+.footer-s1,
+.socials-container {
+  display: flex;
+  flex-direction:row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-2xs);
+}
+.footer-s1 {
+  width: 1200px;
+  border-top: 1px solid var(--color-gray-800);
+  box-sizing: border-box;
+  align-items: center;
+  padding: var(--padding-xl) var(--padding-21xl);
+  gap: var(--gap-614xl);
+  text-align: center;
+  font-size: var(--body-small-tag-size);
+  color: var(--color-gray-100);
+  font-family: var(--body-small-tag);
+}
+
+
+
+
+  @media screen and (max-width:810px){
+    .socials-container{
+      margin-left: -450px;
+    }
+    .your-company-inc2{
+      margin-left: 220px;
+    }
+    .footer-s1{
+      margin-bottom: 50px;
+    }
+  }
+
+  @media screen and (max-width:390px){
+    .socials-container{
+      margin-right: -80px;
+      margin-top: 2px;
+position: relative;
+    }
+    .your-company-inc2{
+     position: relative; 
+     margin-left: 710px;
+     width: -15px;
+    }
+    .footer-s1{
+      position: relative;
+  font-size: 13px; 
+  margin-left:-650px;
+  margin-bottom: -35px;
+  margin-top: 25px;
+  
+    }
+  }
